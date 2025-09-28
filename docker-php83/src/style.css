@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #d9d9d9;
+    color: #333;
+}
+
+.header {
+  background-color: #A3C0EF;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.form {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form input {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 12px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #1976d2;
+}
+
+/* button template */
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn.add {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn.add:hover {
+    background-color: #4caf50;
+}
+
+.btn.update {
+    background-color: #1976d2;
+    color: white;
+}
+
+.btn.update:hover {
+    background-color: #1976d2;
+}
+
+.btn.borrow {
+    background-color: #9c27b0;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn.borrow:hover {
+    opacity: 0.8;
+}
+
+/* HEADERS!! */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* TABLE!!! */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* LINKS!!!! */
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a.edit {
+    background-color: #2196f3;
+    color: white;
+}
+
+a.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+a.add {
+    background-color: #4caf50;
+    color: white;
+}
+
+a.borrow {
+    background-color: #9c27b0;
+    color: white;
+}
+
+a.return {
+    background-color: #430587;
+    color: white;
+}
+
+a.borrow,
+a.add {
+    padding: 6px 12px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* Messages */
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
